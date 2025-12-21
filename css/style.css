@@ -81,9 +81,9 @@ body{
 }
 #linksWin{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-content: center;
-    row-gap: 20%;
+    row-gap: 5%;
 }
 #linksWin div{
     text-align: center;
