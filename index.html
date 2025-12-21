@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About me</title>
+</head>
+<body>
+
+    <div class="back" style="z-index: 0;">
+
+        <div class="apps">
+            <div id="about" ondblclick="openWin('aboutWin')">
+                <img src="img/about.png" alt="about">
+                About
+            </div>
+            <div id="links" ondblclick="openWin('linksWin')">
+                <img src="img/links.png" alt="links">
+                Links
+            </div>
+            <div id="work" ondblclick="openWin('workWin')">
+                <img src="img/work.png" alt="work">
+                Work
+            </div>
+            <div id="contact" ondblclick="openWin('contactWin')">
+                <img src="img/contact.png" alt="contact">
+                Contact
+            </div>
+        </div>
+
+        <div class="window" style="z-index: -1">
+            <div class="head">
+                <img src="img/closeButt.png" alt="close" onclick="closeWindow(this)">
+                <img src="img/bigButt.png" alt="big" onclick="extendWindow(this)">
+            </div>
+            <section id="aboutWin">
+                <div class="scroller">
+                <div id="aboutFirstBox"><img src="img/pfp.png" alt="" width="40%">
+                    <div style="margin: 5%;">
+                        <div>
+                            <h3>Mehde Alhadi Zeaiter</h3>
+                            <br>
+                            <span>Based in Switzerland
+                                <br>
+                                I create things with ♡ and precision
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    Hi, I am Mehde, I am a developer, artist and I...
+                    <ul>
+                        <li>Program small projects</li>
+                        <li>Troubleshoot computer related problems</li>
+                        <li>Do frontend website templates as well as backend</li>
+                        <li>Love fixing electronic stuff</li>
+                    </ul>
+                    <h2>Education</h2>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>Swiss federal maturity certificate</h3>
+                        <p>Focused on advanced mathematics, applied mathematics and physics as my main subjects. With computer science as complementary option.</p>
+                    </div>
+                    <h2>Other interest</h2>
+                    <div style="border-left: 5px solid black;">
+                        <ul>
+                            <li>Artistic drawing</li>
+                            <li>3D modeling</li>
+                            <li>Like retro and vintage stuff</li>
+                            <li>Cycle a lot</li>
+                        </ul>
+                    </div>
+                    <h2>Languages</h2>
+                    <div style="border-left: 5px solid black;">
+                        <ul>
+                            <li>French, Native language</li>
+                            <li>German, fluent</li>
+                            <li>English, fluent as well</li>    
+                        </ul>
+                    </div>
+                    
+                </div>
+                </div>
+            </section>
+        </div>
+        <div class="window" style="z-index: -1">
+            <div class="head">
+                <img src="img/closeButt.png" alt="close" onclick="closeWindow(this)">
+                <img src="img/bigButt.png" alt="big" onclick="extendWindow(this)">
+            </div>
+            <section id="linksWin">
+                <div class="scroller">
+                <div>
+                    <a href=""><img src="img/work.png" alt=""><br>Linkdn</a>
+                </div>
+                <div>
+                    <a href=""><img src="img/work.png" alt=""><br>Github</a>
+                </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="window" style="z-index: -1">
+            <div class="head">
+                <img src="img/closeButt.png" alt="close" onclick="closeWindow(this)">
+                <img src="img/bigButt.png" alt="big" onclick="extendWindow(this)">
+            </div>
+            <section id="workWin">
+                <div class="scroller">
+                <div style="overflow: scroll;">
+                    <h1>Experience</h1>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>Health Care Assistant - 04.2025/11.2025</h3>
+                        <h5>Hôpital Intercantonal de la Broye</h5>
+                        <p>During six months I worked as a health care assistant in a rehabilitation center.
+                            <br>I regularly took care of patients in need, especially the senior and helped them doing every day task and chores.
+                        </p>
+                    </div>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>IT support - 10.2021/06.2023</h3>
+                        <h5>Gymnase Intercantonal de la Broye</h5>
+                        <p>
+                            I was part of a small team of student called the "I-Brother" for two years. Our work consisted to troubleshoot the problems student and teacher were facing with their devices (digital high school) via e-mails or in place. As well as teaching student on how to operate their devices and produce step by step instructions.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h1>Tools</h1>
+                    <div class="griderStuff">
+                        <button title="3D design program">Blender</button>
+                        <button title="C++ & Pyhton IDE">Visual Studio</button>
+                        <button title="Java & Php IDE">Eclipse IDE</button>
+                        <button title="Painting Program">Krita</button>
+                    </div>
+                    <h1>Environnement</h1>
+                    <div class="griderStuff">
+                        <ul>
+                            <li>Windows 10/11</li>
+                            <li>Linux (Arch shell only & gnome)</li>
+                            <li>Energy drinks</li>
+                        </ul>
+                    </div>
+                    <h1>Skills</h1>
+                    <div class="griderStuff">
+                        <h3>Programming languages</h3>
+                        <button title="6 years experience">Java</button>
+                        <button title="2 years experience">Python</button>
+                        <button title="7 years experience">C++</button>
+                    </div>
+                    <div class="griderStuff">
+                        <h3>Web Developement</h3>
+                        <button title="4 Years experience">Html</button>
+                        <button title="4 Years experience">CSS</button>
+                        <button title="3 years experience">Javascript</button>
+                        <button title="3 years experience">Php</button>
+                        <button title="3 years experience">mySQL</button>
+                    </div>
+                </div>
+                
+                <div class="griderStuff">
+                    <h1>Personal projects</h1>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>Home intranet </h3>
+                        <p>In 2022, I took back one of my old laptops to give him a second life. I had to replace the screen and solder some broken componenent back after it fall down once. Here we have a picture of the moment I turned the little boy back to life!</p>
+                        <img src="img/projects/pcrepair.jpg" alt="Arch Linux being installed on the old computer" title="Arch Linux being installed on the old computer" width="40%" style="float: left; margin-right: 2%;">
+                        <p>Since the computer was operating on windows 7, the OS being out of date I had to replace it with a distribution of linux.</p>
+                        <p>After that, I could finally use the old laptop back!</p>
+                        <p>So I used it to train myself with PHP and MySql with a server-client communication between my two computers</p>
+                        <p>I also experienced making a mini version of an NAS. Altough I abandon that project since I couldn't do much with 1TB of an old HDD drive, I at least learned how I could manage to do it in the future. So the projects still is in the back of my head!</p>
+                        <p>I then installed an extremly minimal version of windows (Tiny10 by NTDEV) on the small laptop.</p>
+                        <p>Finally the laptop gave his last breath and the one of the componenent of the motherboard died. I couldn't diagnos exactly which componenent it was but I could isolate the problem being there is a shortcut around the keyboard input.</p>
+                    </div>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>Neko adventure</h3>
+                        <p>A silly cat based top-down RPG where we follow the adventure of a cat in a destroyed world</p>
+                        <p>The game is based in Java and I started the developement 2 years ago</p>
+                        <p>After 6 months I sadly had to put a stop to the developement to focus on other important things
+                            <br> But I won't abandon the project and now giving myslef having time, I can finally continue the developement of my rpg game.
+                        </p>
+                    </div>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>PhP server-client, chat system</h3>
+                        <p>What better fellings then to feel satisfied after doing much more then what our teacher asked us to do!</p>
+                        <p>In computer science class, we had to develop an interactive website with php and a database. We used MySql for the last one. <br>
+                        So, I requested to the teacher if I could do it independently. While the assignement was in group, I decided to challenge myself to see if I could work independently and to push my project to it's absolute limit and further then what we were originally asked.
+                        <br>What I ended up doing is a chat system from the ground up whitout using external known librarys. With it I could demonstrate to the class that we can chat from different computer in the same website, each having a unique username, profile picture and password.
+                        </p>
+                        <a href="https://github.com/mehdezeaiter/Php-server-chat-system">Here is a link to the project in question</a>
+                    </div>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>Death snake</h3>
+                        <p>This is a silly russian roulette style game</p>
+                        <p>It's the classic game snake in python but it's a roulette for your system.</p>
+                        <p>Each time you die, there is a random file in your computer that get deleted and you don't know which file it was.
+                            <br>One of my friend gave me this idea after he was wondering if a russian roulette for computer existed.
+                            <br>Since I couldn't find any I decided to make it myself in a snake based system.
+                        </p>
+                        <a href="">The repository in question</a>
+                    </div>
+                    <div style="border-left: 5px solid black; padding-left: 5%;">
+                        <h3>This website!</h3>
+                        <p>This wasn't my first ever portfolio style website but actually the 5th version!</p>
+                        <p>Since I really like windows XP (my first ever operating system), I really like the nostalgia it gives me working with it as a theme for my portfolio.</p>
+                        <p>I will of course continue updating it as time passes and cite all the work and projects I have done</p>
+                        <h6>There is a lot so it takes time to write everything and gather back my sources(╥﹏╥)</h6>
+                    </div>
+                </div>
+            </div>
+            </section>
+        </div>
+        <div class="window" style="z-index: -1">
+            <div class="head">
+                <img src="img/closeButt.png" alt="close" onclick="closeWindow(this)">
+                <img src="img/bigButt.png" alt="big" onclick="extendWindow(this)">
+            </div>
+            <section id="contactWin">
+                <div class="scroller">
+                    <h1>Way to contact me</h1>
+                    <p>The easiest way to contact me is through <a href="mailto:mehdezeaiter@outlook.com">E-mail</a>!</p>
+                    <button onclick="copyText(this)" title="Click to copy">mehdezeaiter@outlook.com</button>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
